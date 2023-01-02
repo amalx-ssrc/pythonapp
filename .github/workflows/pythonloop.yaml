@@ -9,4 +9,4 @@ jobs:
       - name: Print numbers
         run: |
           docker ps
-    
+          docker login -u dockertry1729 -p fMmcG842tFP5Qk5
