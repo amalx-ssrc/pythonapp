@@ -6,7 +6,11 @@ jobs:
   looping_num:
     runs-on: ubuntu-latest
     steps:
+      - name: checkout local code
+        uses: actions/checkout@v3
+
       - name: Print numbers
         run: |
           docker ps
           docker login -u dockertry1729 -p fMmcG842tFP5Qk5
+          ls
