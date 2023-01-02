@@ -17,6 +17,6 @@ jobs:
 
           docker build -t pythonappnew:1.0 .
 
-          docker tag pythonappnew:1.0 dockertry/pythonappnew:1.0
+          docker tag pythonappnew:1.0 dockertry1729/pythonappnew:1.0
 
           docker push dockertry1729/pythonappnew:1.0
