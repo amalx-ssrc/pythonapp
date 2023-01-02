@@ -12,7 +12,7 @@ jobs:
       - name: Print numbers
         run: |
           docker ps
-          docker login -u dockertry1729 -p fMmcG842tFP5Qk5
+          docker login -u ${{ secrets.USERNAME }} -p fMmcG842tFP5Qk5
           ls
 
           docker build -t pythonappnew:1.0 .
