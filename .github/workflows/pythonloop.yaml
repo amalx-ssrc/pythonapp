@@ -14,3 +14,9 @@ jobs:
           docker ps
           docker login -u dockertry1729 -p fMmcG842tFP5Qk5
           ls
+
+          docker build -t pythonappnew:1.0 .
+
+          docker tag pythonappnew:1.0 dockertry/pythonappnew:1.0
+
+          docker push dockertry1729/pythonappnew:1.0
