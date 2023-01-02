@@ -1,0 +1,12 @@
+name: Python loop on
+
+on: push
+
+jobs:
+  looping_num:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print numbers
+        run: |
+          docker ps
+    
