@@ -1,0 +1,9 @@
+sudo docker build -t pythonapp:1.0 .
+
+sudo docker login -u dockertry -p fMmcG842tFP5Qk5
+
+sudo docker tag pythonapp:1.0 dockertry/pythonapp:1.0
+
+sudo docker push dockertry1729/pythonapp:1.0
+
+
