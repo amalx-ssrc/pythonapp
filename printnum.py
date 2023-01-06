@@ -1,4 +1,3 @@
 print("Hello world")
-
-for i in range(0,20):
+or i in range(0,20):
     print ("num ",i)
